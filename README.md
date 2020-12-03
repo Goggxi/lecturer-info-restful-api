@@ -111,7 +111,7 @@ Response :
 }
 ```
 
-## Update Product
+## Update Lecturer
 
 Request :
 - Method : PUT
@@ -175,7 +175,7 @@ Response :
 }
 ```
 
-## List Product
+## List Lecturer
 
 Request :
 - Method : GET
@@ -241,7 +241,7 @@ Response :
 }
 ```
 
-## Delete Product
+## Delete Lecturer
 
 Request :
 - Method : DELETE

@@ -1,0 +1,12 @@
+version:  '3.5'
+
+services:
+  lecturer-info-restful-api:
+    container_name: "lecturer-info-restful-api"
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: goggxi
+      POSTGRES_USER: goggxi
+      POSTGRES_DB: lecturer_db
