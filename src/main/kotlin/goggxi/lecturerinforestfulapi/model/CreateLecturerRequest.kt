@@ -1,42 +1,61 @@
 package goggxi.lecturerinforestfulapi.model
 
 import java.util.*
+import javax.validation.constraints.NotBlank
 
 data class CreateLecturerRequest (
 
-    val id: Long,
+    @field:NotBlank
+    val id: Long?,
 
-    val noDosen: String,
+    @field:NotBlank
+    val noDosen: String?,
 
-    val nidn: String,
+    @field:NotBlank
+    val nidn: String?,
 
-    val nama: String,
+    @field:NotBlank
+    val nama: String?,
 
-    val image: String,
+    @field:NotBlank
+    val image: String?,
 
-    val gelar: String,
+    @field:NotBlank
+    val gelar: String?,
 
-    val golongan: String,
+    @field:NotBlank
+    val golongan: String?,
 
-    val tempatLahir: String,
+    @field:NotBlank
+    val tempatLahir: String?,
 
-    val tanggalLahir: Date,
+    @field:NotBlank
+    val tanggalLahir: Date?,
 
-    val jenisKelamin: String,
+    @field:NotBlank
+    val jenisKelamin: String?,
 
-    val agama: String,
+    @field:NotBlank
+    val agama: String?,
 
-    val alamat: String,
+    @field:NotBlank
+    val alamat: String?,
 
-    val telepon: String,
+    @field:NotBlank
+    val telepon: String?,
 
-    val jenjangPendidikan: String,
+    @field:NotBlank
+    val jenjangPendidikan: String?,
 
-    val bidangIlmu: String,
+    @field:NotBlank
+    val bidangIlmu: String?,
 
-    val statusAktif: String,
+    @field:NotBlank
+    val statusAktif: String?,
 
-    val ikatanKerja: String,
+    @field:NotBlank
+    val ikatanKerja: String?,
 
-    val jabatanAkademik: String,
+    @field:NotBlank
+    val jabatanAkademik: String?,
 )
